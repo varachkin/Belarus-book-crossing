@@ -1,0 +1,56 @@
+.headerContainer{
+    width: 100vw;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerNav, .headerLogoContainer {
+   width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.headerLink {
+    color: #0069AB;
+    font-size: 25px;
+    margin: 0 0 0 30px;
+    display: inline;
+    cursor: pointer;
+    transition: 300ms;
+    &:hover {
+        color: #B02225;
+    }
+}
+
+.headerLogo {
+    max-width: 25%;
+    height: auto;
+    margin: 0;
+    transition: 300ms;
+};
+
+.headerRegisteButton {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.patreonLink {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+}
+
+.patreonLinkText {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
